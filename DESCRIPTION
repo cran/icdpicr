@@ -1,7 +1,7 @@
 Package: icdpicr
 Type: Package
 Title: 'ICD' Programs for Injury Categorization in R
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: c(
     person("Adam", "Black", email = "ablack3@gmail.com", role = c("aut", "cre", "cph")),
     person("David", "Clark", role = c("aut", "cph")))
@@ -14,15 +14,15 @@ Description: Categorization and scoring of injury severity typically involves
 License: MIT + file LICENSE
 LazyData: TRUE
 Encoding: UTF-8
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 Imports: stringr (>= 1.0.0)
 Depends: R (>= 2.10)
-Suggests: testthat, knitr, rmarkdown, dplyr
+Suggests: testthat, knitr, rmarkdown, dplyr, rcmdcheck
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2021-01-25 03:15:20 UTC; ablac
+Packaged: 2022-03-12 20:06:46 UTC; adamblack
 Author: Adam Black [aut, cre, cph],
   David Clark [aut, cph]
 Maintainer: Adam Black <ablack3@gmail.com>
 Repository: CRAN
-Date/Publication: 2021-01-28 12:20:02 UTC
+Date/Publication: 2022-03-12 20:20:02 UTC
